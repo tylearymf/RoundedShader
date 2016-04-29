@@ -1,6 +1,8 @@
-﻿Shader "Custom/RoundedShader" {
+﻿///圆形Shader 、用来处理图片四个角为圆角 
+Shader "Custom/RoundedShader" {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
+	///_RoundedRadius 为 半径
 	_RoundedRadius("Raounded Radius", Range(0,1)) = 0.1
 	} 
 		SubShader{
