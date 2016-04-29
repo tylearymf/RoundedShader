@@ -29,7 +29,7 @@ Shader "Custom/RoundedShader" {
 		fixed4 color : COLOR;
 		half2 texcoord : TEXCOORD0;
 		float4 worldPosition : TEXCOORD1;
-	};
+	}; 
 
 	v2f vert(appdata_t IN) {
 		v2f OUT;
